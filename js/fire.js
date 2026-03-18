@@ -2,7 +2,7 @@
 
 function Fire() {
   let self = this;
-  self.speedFire = 10;
+  self.speedFire = 100;
   self.fireSize = shipSize / 3;
 
   self.addFire = function (x, y) {
